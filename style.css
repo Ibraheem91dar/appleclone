@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Oswald:wght@200;300&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex ;
+    justify-content: center;
+    padding-top: 20px;
+}
+.navbar .logo img{
+    height: 20px;
+}
+.navbar .nav-icons img{
+    height: 20px;
+    margin-left: 20px;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin-left: 40px;
+    font-size: 15px;
+}
+.offer{
+    text-align: center;
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.offer a{
+    color: blue;
+    text-decoration: none;
+}
+.back-video video{
+    width: 100%;
+}
+.services img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.section{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  background-color: rgba(0, 0, 0, 0.096);
+  margin-top: 30px;
+}
+.title h1{
+    font-size: 40px;
+}
+.product img{
+    height: 90px;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-container{
+    margin-top: 40px;
+    text-align: center;
+
+}
+.card-container h1{
+    margin-bottom: 10px;
+}
+.cards{
+  margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height: 470px;
+    width: 380px;
+    padding: 20px;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    transition: 0.7s ;
+}
+.card h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card img{
+    height: 200px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.card:hover{
+ transform: scale(1.1);
+ cursor: pointer;
+}
+#card3{
+    background-color: black;
+    color: white;
+}
+.event-pictures  img{
+    height: 400px;
+}
+.event-pictures{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.apple-event{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding: 50px;
+}
+.apple-event h1{
+    text-align: center;
+  margin-bottom: 30px;
+}
+.section-3 img{
+    height: 600px;
+}
+.section-3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.store{
+    display: flex;
+}
+.store img{
+    height: 20px;
+}
+.menu-list{
+  display: flex;
+  justify-content:space-evenly;
+}
+.menu-list ul{
+    list-style: none;
+}
+.store{
+    margin-left: 5rem;
+    padding-top:20px ;
+    padding-bottom: 20px;
+}
+.menu-items{
+    background-color: rgba(0, 0, 0, 0.096);
+       margin-top: 30px;
+}
+.footer p{
+    text-align: center;
+}
+.footer{
+    padding: 20px;
+}
+.menu{
+    display: none;
+}
+.cross{
+    display: none;
+}
+@media only screen  and (max-width:600px) {
+    .navbar ul {
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 40px;
+        position: absolute;
+        background-color: white;
+        opacity: 0%;
+        transition: 0.6s;
+    }
+    .navbar ul li{
+        padding-top: 30px;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 6%;
+        top: 3%;
+        height: 25px;
+    }
+    .cross{
+        display: block;
+        position: absolute;
+        right: 6%;
+        top: 3%;
+        height: 25px;
+    }
+    .offer p{
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .offer a{
+        font-size: 13px;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        padding: 30px; 
+    }
+    .title h1{
+ font-size: 30px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .card{
+        margin-top: 50px;
+    }
+    .apple-event{
+        display: flex;
+        flex-direction: column;
+    }
+    .event-pictures{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .event-pictures img{
+        height: 350px;
+        width: 200px;
+    }
+    .section-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-3 img{
+        height: 400px;
+    }
+    .section-3 h1{
+        font-size: 30px;
+        margin: 20px;
+    }
+    .menu-list ul {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .footer p{
+   font-size: 13px;
+    }
+}
