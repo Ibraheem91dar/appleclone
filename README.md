@@ -1,0 +1,2 @@
+# appleclone
+project of apple
